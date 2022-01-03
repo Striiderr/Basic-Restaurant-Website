@@ -11,11 +11,20 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Ristorante Con Fusion: About Us</title>
-
 </head>
-
 <body>
-
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Restorante Con Fusion</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -31,7 +40,12 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12" style="text-align: center;margin: 1vw;">        
+        <ol class="col-12 breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active"><a href="#">About Us</a></li>
+        </ol>
+
+            <div class="col-12" style="text-align: center; margin: 1vw;">        
                 <h3>About Us</h3>
                <hr>
             </div>
@@ -67,16 +81,16 @@
     <footer class="footer">
         <div class="container">
             <div style="margin-bottom: 1vw;" class="row ">             
-                <div class="col-6 offset-sm-1 col-sm-3">
+                <div class="col-5 offset-1 col-sm-3">
                     <h5 style="color: darkskateblue;">Links</h5>
                     <ul style="color: darkskateblue;"class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 offset-sm-1  col-sm-4">
+                <div class="col-6 col-sm-4">
                     <h5 style="color: darkskateblue;">Our Address</h5>
                     <address style="" class="address">
 		              121, Clear Water Bay Road<br>
