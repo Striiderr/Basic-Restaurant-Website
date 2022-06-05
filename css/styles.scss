@@ -75,7 +75,7 @@ body{
 
 
     .modal-header{
-        background-color: $background-dark;  
+        background-color: #512DA8;
         color: floralwhite;     
         .close{
             color: floralwhite;
@@ -83,4 +83,7 @@ body{
     }
     .modal-body{
         background-color: $background-pale;
+    }
+    #logModal{
+        color: floralwhite;
     }
